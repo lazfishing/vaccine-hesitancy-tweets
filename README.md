@@ -25,7 +25,7 @@ We customised NLTK’s in-built VADER polarity score by extracting the automatic
 Google's BERT is a language representation model that has achieved state-of-the-art performance on multiple benchmarks. We used HuggingFace's transformers library to fine-tune a pretrained BERT model for the sentiment classification task. The optimal parameters are batch size of 16, a learning rate of 0.00005. Trained on oversampled data, the BERT classifier achieved an accuracy of 78.77% and an F1-score of 79.55%, outperforming both the baseline comparison and our random forest classifier. The pre-trained BERT classifier was used to label the remaining 261,840 tweets for further time-series and network analysis.
 
 Metrics | Linear SVM | K-Nearest Neighbors | Decision Tree Classifier | Random Forest Classifier | Pre-trained BERT Classifier
-------- | ---------- | ------------------- | ------------------------ | ------------------------ | ---------------------------
+---------- | ---------- | ---------- | ---------- | ---------- | ----------
 Accuracy | 64.45% | 68.03% | 70.59% | 72.63% | 78.77%
 Precision | 68.28% | 69.06% | 73.61% | 76.68% | 79.90%
 Recall | 68.41% | 71.67% | 73.82% | 74.85% | 79.22%
