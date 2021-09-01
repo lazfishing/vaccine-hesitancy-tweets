@@ -41,3 +41,7 @@ Using the complete dataset of labelled tweets, time-series analysis of sentiment
 ## Mentions
 
 The sentiment classification and time-series analysis components were completed as part of a wider study on the `Social Network Analysis of COVID-19 Vaccination Sentiments in New York City` at the Center for Urban Science and Progress, in April 2021. The project members are David Zhao, Jiaqi Dong, Lazarus Chok, Yuanzhe Luo.
+
+**References**
+* [Chris' tutorial on fine-tuning BERT for sentiment analysis](https://github.com/chriskhanhtran/bert-for-sentiment-analysis)
+* [Aditya's tutorial for using VADER polarity classification for sentiment analysis](https://towardsdatascience.com/sentimental-analysis-using-vader-a3415fef7664)
