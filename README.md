@@ -35,8 +35,8 @@ F1-score | 62.21% | 69.97% | 73.41% | 75.06% | 79.55%
 
 Using the complete dataset of labelled tweets, time-series analysis of sentiment trends was done. Results were comparable to work done by Hussein et al. (2021), and generally corresponded to key global and local vaccine-related events.
 
-![Time-Series Analysis](/images/ts_events.png)
 ![ARIMA Predictions](/images/ts_compare.png)
+![Time-Series Analysis](/images/ts_events.png)
 
 ## Mentions
 
